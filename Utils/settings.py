@@ -1,4 +1,3 @@
-# TODO: To have a single place to contain the reward functions
 import numpy as np
 import pandas as pd
 # no apache now
@@ -10,16 +9,7 @@ state_col = ['shock_index', 'age', 'gender', 'weight', 'readmission', 'sirs', 'e
              'creatinine', 'ptt', 'pt', 'inr', 'ast', 'alt', 'bilirubin_total',
              'gcs', 'fio2', 'urine_output', 'output_total', 'sofa_24hours', 'magnesium', 'bloc']
 
-# next_state_col = ['next_shock_index','next_age','next_gender','next_weight','next_readmission','next_sirs','next_elixhauser_vanwalraven',
-#                   'next_MechVent',
-#                   'next_heartrate','next_respiratoryrate','next_spo2','next_temperature',
-#                   'next_sbp','nexrt_mbp','next_dbp','next_lactate','next_bicarbonate','next_pao2','next_paco2','next_pH',
-#                   'next_hemoglobin','next_baseexcess', 'next_chloride','next_glucose','next_calcium','next_ionized_calcium','next_albumin',
-#                   'next_potassium','next_sodium','next_co2', 'next_pao2fio2ratio', 'next_wbc',  'next_platelet',  'next_bun',
-#                   'next_creatinine','next_ptt', 'next_pt','next_inr','next_ast', 'next_alt','next_bilirubin_total',
-#                   'next_gcs','next_fio2','next_urine_output', 'next_output_total','next_sofa_24hours','next_magnesium','next_bloc']
-
-# TODO: created Next state columns programatically to maintain the same order
+# Created Next state columns programatically to maintain the same order
 next_state_col = ['next_' + x for x in state_col]
 
 # action_dis_col = ['iv_fluids_level', 'vasopressors_level']

@@ -4,7 +4,7 @@ Created on  Jan 14 2021
 
 @author: Siqi Liu
 """
-# TODO: Allows iteration wise graph generation
+# Allows iteration wise graph generation
 import sys
 sys.path.append("../Utils")
 import pandas as pd
