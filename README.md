@@ -1,5 +1,5 @@
 # Smart Imitator (SI)
-*A reinforcement learning framework for learning from imperfect clinical decisions.*
+*This is the official codebase for the paper titled "Smart Imitator: Learning from Imperfect Clinical Decision."*
 
 ## **Overview**
 Smart Imitator (SI) is a two-phase reinforcement learning (RL) system designed to refine clinical decision-making by learning from **imperfect observational data**. It integrates **Adversarial Cooperative Imitation Learning (ACIL)** and **Inverse Reinforcement Learning (IRL)** to develop more effective treatment policies.
